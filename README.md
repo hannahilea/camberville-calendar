@@ -68,11 +68,11 @@ TBD:
 - How have those weird pop-up street e-ink displays gotten their info? was it comprehensive at all? (i suspect not...)
 
 ## Next steps
-- [ ] Set up basic site 
+- [x] Set up basic site 
+- [ ] icons
 - [ ] Set up basic calendar
     - [ ] Make calendar public 
     - [ ] Add it to site
-- [ ] Add "under development" badge 
 - [ ] Get domain
 - [ ] Set up pattern for adding new event
     - [ ] update list on site
