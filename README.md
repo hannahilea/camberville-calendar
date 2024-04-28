@@ -1,5 +1,8 @@
 # Camberville Calendar
-One-stop dashboard for city-wide happenings.
+
+[![stability-wip](https://img.shields.io/badge/stability-wip-lightgrey.svg)](https://github.com/mkenney/software-guides/blob/master/STABILITY-BADGES.md#work-in-progress)
+
+One-stop dashboard for city-wide happenings: view site [here](hannahilea.github.io/camberville-calendar/).
 
 ## Goal
 - Bird's-eye-view of fun public events, to enable:

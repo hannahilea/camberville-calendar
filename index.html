@@ -10,26 +10,71 @@
         content="A one-stop dashboard for festive Camberville (Cambridge and Somerville, MA) happenings." />
     <meta name="apple-mobile-web-app-title" content="Camberville Calendar" />
     <meta name="application-name" content="Camberville Calendar" />
-    
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+    <style>
+        .sort.asc::after {
+            content: "▲";
+            padding-left: 3px;
+        }
+
+        .sort.desc::after {
+            content: "▼";
+            padding-left: 3px
+        }
+
+        .search {
+            float: right;
+        }
+
+    </style>
 </head>
 
 <body>
     <h1>Camberville Calendar</h1>
+    <em><b style="color:#9900FF">Website is actively under development! Not yet up-to-date or reliable. Want to help get
+            it there?
+            <a href="https://github.com/hannahilea/camberville-calendar">Get in touch!</a></b></em>
     <p>
-        The Camberville Calendar is a one-stop dashboard for festive Camberville (Cambridge and Somerville, MA)
-        happenings.
+        The Camberville Calendar is a one-stop dashboard for festive happenings in Cambridge and
+        Somerville, Massachusetts.
     </p>
     <hr />
 
     <h2>Calendar</h2>
-    TODO: add embedded Google Calendar + links to subscribe to it 
+    TODO: add embedded Google Calendar + links to subscribe to it
 
+    <p style="text-align:center">🌷🌷🌷🌷🌷</p>
     <h2>Event listings</h2>
-    All events in the following table also exist in the calendar.
+    <em>All events in the following table also exist in the calendar.</em>
 
-    TODO: list of all ongoing+upcoming events
-    TODO: separate page for previous events
+    <div id="event-list">
+        <input name="event-search" class="search" placeholder="Search events..." />
+        <!-- TODO: autofill search + sorting from url; indicate that searching is enabled -->
+        <table>
+            <thead>
+                <tr>
+                    <th class="sort" data-sort="event">Event</th>
+                    <th class="sort asc" data-sort="startDate" data-default-order='asc'>Start date</th>
+                    <th class="sort" data-sort="endDate">End date</th>
+                    <th class="sort" data-sort="location">Location</th>
+                    <th class="sort" data-sort="details">Details</th>
+                </tr>
+            </thead>
+            <!-- IMPORTANT, class="list" have to be at tbody -->
+            <tbody class="list">
+                <tr>
+                    <td class="event"></td>
+                    <td class="startDate"></td>
+                    <td class="endDate"></td>
+                    <td class="location"></td>
+                    <td class="details"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p style="text-align:center">🌷🌷🌷🌷🌷</p>
 
     <footer>
         <em>See source—and file bug reports and feature requests—<a
