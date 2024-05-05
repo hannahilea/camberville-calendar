@@ -70,8 +70,8 @@ TBD:
 ## Next steps
 - [x] Set up basic site 
 - [ ] icons
-- [ ] Set up basic calendar
-    - [ ] Make calendar public 
+- [x] Set up basic calendar
+    - [x] Make calendar public 
     - [ ] Add it to site
 - [ ] Get domain
 - [ ] Set up pattern for adding new event

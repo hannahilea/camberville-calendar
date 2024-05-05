@@ -6,7 +6,7 @@ var options = {
 // TODO-future: pull in from json
 // Values in this table were added non-comprehensively and by hand
 var values = [
-    { event: 'Somerville Open Studios', startDate:'2024-05-04', endDate: '2024-05-04', location: 'Somerville', details: '<a href="https://www.somervilleopenstudios.org/visit/">Source</a>'},
+    { event: 'Somerville Open Studios', startDate:'2024-05-04', endDate: '2024-05-5', location: 'Somerville', details: '<a href="https://www.somervilleopenstudios.org/visit/">Source</a>'},
     { event: 'Somerville PorchFest', startDate:'2024-05-11', endDate: '2024-05-11', location: 'Somerville', details: '<a href="https://beta.somervilleartscouncil.org/porchfest/porchfest-2024/">Source</a>'}
 ];
 
