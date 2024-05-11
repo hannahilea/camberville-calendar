@@ -1,1 +1,4 @@
 .secrets/
+scripts/gcal-api/*
+!scripts/gcal-api/quickstart.py
+!scripts/gcal-api/README.md
